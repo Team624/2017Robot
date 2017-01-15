@@ -255,7 +255,7 @@
 	</Item>
 	<Item Name="Target" Type="RT myRIO">
 		<Property Name="alias.name" Type="Str">Target</Property>
-		<Property Name="alias.value" Type="Str">roboRIO-624-FRC.local</Property>
+		<Property Name="alias.value" Type="Str">roboRIO-9924-FRC.local</Property>
 		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,ARM;DeviceCode,76F2;TARGET_TYPE,RT;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">76F2</Property>
 		<Property Name="crio.family" Type="Str">ARMLinux</Property>
@@ -927,8 +927,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Z900_navX_ZeroVectorTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_TypeDefs/Z900_navX_ZeroVectorTypeDef.ctl"/>
 				<Item Name="Zero Yaw.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/Set/Zero Yaw.vi"/>
 			</Item>
-			<Item Name="Change Detect Boolean.vi" Type="VI" URL="../Common Code/Change Detect Boolean.vi"/>
-			<Item Name="Change Detect.vi" Type="VI" URL="../Common Code/Change Detect.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
