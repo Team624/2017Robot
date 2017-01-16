@@ -255,7 +255,7 @@
 	</Item>
 	<Item Name="Target" Type="RT myRIO">
 		<Property Name="alias.name" Type="Str">Target</Property>
-		<Property Name="alias.value" Type="Str">roboRIO-624-FRC.local</Property>
+		<Property Name="alias.value" Type="Str">roboRIO-9924-FRC.local</Property>
 		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,ARM;DeviceCode,76F2;TARGET_TYPE,RT;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">76F2</Property>
 		<Property Name="crio.family" Type="Str">ARMLinux</Property>
@@ -351,8 +351,9 @@ AddOutputFilter chunkFilter
 		<Item Name="Framework" Type="Folder" URL="../Robot Code/Framework">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Gear Mechanism" Type="Folder"/>
-		<Item Name="Intake" Type="Folder"/>
+		<Item Name="Intakes" Type="Folder" URL="../Robot Code/Intakes">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="navX.Library.v2" Type="Folder" URL="../Robot Code/navX.Library.v2">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
