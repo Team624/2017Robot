@@ -351,8 +351,9 @@ AddOutputFilter chunkFilter
 		<Item Name="Framework" Type="Folder" URL="../Robot Code/Framework">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Gear Mechanism" Type="Folder"/>
-		<Item Name="Intake" Type="Folder"/>
+		<Item Name="Intakes" Type="Folder" URL="../Robot Code/Intakes">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="navX.Library.v2" Type="Folder" URL="../Robot Code/navX.Library.v2">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
