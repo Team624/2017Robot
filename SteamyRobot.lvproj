@@ -30,6 +30,8 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Vision Utilities.ctl" Type="VI" URL="../Common Code/Vision Utilities.ctl"/>
+		<Item Name="Intake Status Cluster.ctl" Type="VI" URL="../Common Code/Intake Status Cluster.ctl"/>
+		<Item Name="Climb Status Cluster.ctl" Type="VI" URL="../Common Code/Climb Status Cluster.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
@@ -251,7 +253,9 @@
 			<Item Name="Dashboard Display Data.ctl" Type="VI" URL="../Common Code/Dashboard Display Data.ctl"/>
 			<Item Name="Drivetrain Status Cluster.ctl" Type="VI" URL="../Common Code/Drivetrain Status Cluster.ctl"/>
 			<Item Name="Dashboard Control Data.ctl" Type="VI" URL="../Common Code/Dashboard Control Data.ctl"/>
-			<Item Name="Drivetrain Presets.ctl" Type="VI" URL="../Common Code/Drivetrain Presets.ctl"/>
+			<Item Name="Drivetrain Settings.ctl" Type="VI" URL="../Common Code/Drivetrain Settings.ctl"/>
+			<Item Name="Intake Presets.ctl" Type="VI" URL="../Common Code/Intake Presets.ctl"/>
+			<Item Name="Shooter Status Cluster.ctl" Type="VI" URL="../Common Code/Shooter Status Cluster.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -362,6 +366,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Shooter" Type="Folder" URL="../Robot Code/Shooter">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Intake Type.ctl" Type="VI" URL="../../../2016RobotCode/no/Intake Type.ctl"/>
 		<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Code/Robot Global Data.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Code/Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
