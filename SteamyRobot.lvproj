@@ -349,6 +349,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Shooter" Type="Folder" URL="../Robot Code/Shooter">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Keyboard.vi" Type="VI" URL="../Common Code/Utilities/Keyboard.vi"/>
 		<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Code/Robot Global Data.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Code/Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
