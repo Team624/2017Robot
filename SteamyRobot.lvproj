@@ -30,6 +30,7 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Vision Utilities.ctl" Type="VI" URL="../Common Code/Vision Utilities.ctl"/>
+		<Item Name="Climb Presets.ctl" Type="VI" URL="../Common Code/Climb Presets.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
