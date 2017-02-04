@@ -244,11 +244,49 @@
 			<Item Name="Encoder Values.ctl" Type="VI" URL="../Common Code/Encoder Values.ctl"/>
 			<Item Name="Drivetrain Encoder Values.ctl" Type="VI" URL="../Common Code/Drivetrain Encoder Values.ctl"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Teh Dashboard" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{BE998F49-EC14-40E6-9404-8D996B4E5BE3}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{A341048E-99D0-4B34-9758-300645B0A868}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{0C769587-9C80-4725-99EC-EDBF2BF5230D}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Teh Dashboard</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Teh Dashboard</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{62073EB5-3385-4D65-9209-8CB659DA7001}</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Dashboard.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Teh Dashboard/Dashboard.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Teh Dashboard/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F76719E4-A30F-4D87-8E7A-0B688A4459FB}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Dashboard/Dashboard Main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">FRC Team 624</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Teh Dashboard</Property>
+				<Property Name="TgtF_internalName" Type="Str">Teh Dashboard</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 FRC Team 624</Property>
+				<Property Name="TgtF_productName" Type="Str">Teh Dashboard</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{0B3224DD-E90B-469B-87D0-92E28FE5EF88}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Dashboard.exe</Property>
+			</Item>
+		</Item>
 	</Item>
 	<Item Name="Target" Type="RT myRIO">
 		<Property Name="alias.name" Type="Str">Target</Property>
-		<Property Name="alias.value" Type="Str">roboRIO-9924-FRC.local</Property>
+		<Property Name="alias.value" Type="Str">roboRIO-624-FRC.local</Property>
 		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,ARM;DeviceCode,76F2;TARGET_TYPE,RT;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">76F2</Property>
 		<Property Name="crio.family" Type="Str">ARMLinux</Property>
@@ -709,7 +747,6 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_CANTalonSRX_APIControlMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_APIControlMode.ctl"/>
 				<Item Name="WPI_CANTalonSRX_BrakeOverride.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_BrakeOverride.ctl"/>
 				<Item Name="WPI_CANTalonSRX_ConfigBrakeCoast.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_ConfigBrakeCoast.vi"/>
-				<Item Name="WPI_CANTalonSRX_ConfigEncoderCodesPerLine.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_ConfigEncoderCodesPerLine.vi"/>
 				<Item Name="WPI_CANTalonSRX_ConfigStatusFrameRate.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_ConfigStatusFrameRate.vi"/>
 				<Item Name="WPI_CANTalonSRX_ControlMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_ControlMode.ctl"/>
 				<Item Name="WPI_CANTalonSRX_DeduceControlIMsgId.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_DeduceControlIMsgId.vi"/>
