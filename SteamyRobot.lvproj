@@ -185,7 +185,6 @@
 				<Item Name="NT Read Raw.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Read Raw.vi"/>
 				<Item Name="WPI_CameraParse URL.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraParse URL.vi"/>
 				<Item Name="WPI_CameraTranslate Percent Codes.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraTranslate Percent Codes.vi"/>
-				<Item Name="NT Write String.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Write String.vi"/>
 				<Item Name="NT Write Name Cache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Write Name Cache.vi"/>
 				<Item Name="Cached Name Lookup.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Cached Name Lookup.vi"/>
 				<Item Name="Get Tab Control Refs.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Get Tab Control Refs.vi"/>
@@ -224,7 +223,6 @@
 				<Item Name="Parse NT String Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Parse NT String Array.vi"/>
 				<Item Name="Update Entry.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Update Entry.vi"/>
 				<Item Name="Compare Seq Numbers.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Compare Seq Numbers.vi"/>
-				<Item Name="WPI_DriverStationRobotMode2.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationRobotMode2.ctl"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -244,32 +242,25 @@
 			<Item Name="Intake Presets.ctl" Type="VI" URL="../Common Code/Intake Presets.ctl"/>
 			<Item Name="Intake Modes.ctl" Type="VI" URL="../Common Code/Intake Modes.ctl"/>
 			<Item Name="Intake Auto States.ctl" Type="VI" URL="../Common Code/Intake Auto States.ctl"/>
-			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Code/Robot Global Data.vi"/>
-			<Item Name="Drivetrain Mode.ctl" Type="VI" URL="../Common Code/Drivetrain Mode.ctl"/>
-			<Item Name="Drivetrain Command Cluster.ctl" Type="VI" URL="../Common Code/Drivetrain Command Cluster.ctl"/>
-			<Item Name="Intake Control Cluster.ctl" Type="VI" URL="../Common Code/Intake Control Cluster.ctl"/>
-			<Item Name="Keyboard Packet.ctl" Type="VI" URL="../Common Code/Keyboard Packet.ctl"/>
-			<Item Name="Manual Command Cluster.ctl" Type="VI" URL="../Common Code/Manual Command Cluster.ctl"/>
 			<Item Name="PID Gains.ctl" Type="VI" URL="../Common Code/PID Gains.ctl"/>
-			<Item Name="Intake Trip States.ctl" Type="VI" URL="../Common Code/Intake Trip States.ctl"/>
-			<Item Name="Shooter Control Cluster&apos;.ctl" Type="VI" URL="../Common Code/Shooter Control Cluster&apos;.ctl"/>
 			<Item Name="Shooter Modes.ctl" Type="VI" URL="../Common Code/Shooter Modes.ctl"/>
 			<Item Name="Shooter Commands.ctl" Type="VI" URL="../Common Code/Shooter Commands.ctl"/>
 			<Item Name="Shooter Presets.ctl" Type="VI" URL="../Common Code/Shooter Presets.ctl"/>
 			<Item Name="Vision Shot Presets.ctl" Type="VI" URL="../Common Code/Vision Shot Presets.ctl"/>
-			<Item Name="Manual Shoot Cluster.ctl" Type="VI" URL="../Common Code/Manual Shoot Cluster.ctl"/>
-			<Item Name="Auton File Lists.ctl" Type="VI" URL="../Common Code/Auton File Lists.ctl"/>
 			<Item Name="Auton Command Cluster.ctl" Type="VI" URL="../Common Code/Auton Command Cluster.ctl"/>
 			<Item Name="Shot Type.ctl" Type="VI" URL="../Common Code/Shot Type.ctl"/>
 			<Item Name="Shooter Encoder Values.ctl" Type="VI" URL="../Common Code/Shooter Encoder Values.ctl"/>
 			<Item Name="Manual Shooter Presets.ctl" Type="VI" URL="../Common Code/Manual Shooter Presets.ctl"/>
 			<Item Name="Shooter Encoder.ctl" Type="VI" URL="../Common Code/Shooter Encoder.ctl"/>
+			<Item Name="Drivetrain Encoder Settings.ctl" Type="VI" URL="../Common Code/Drivetrain Encoder Settings.ctl"/>
+			<Item Name="Drivetrain Encoder Values.ctl" Type="VI" URL="../Common Code/Drivetrain Encoder Values.ctl"/>
+			<Item Name="Encoder Values.ctl" Type="VI" URL="../Common Code/Encoder Values.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 	<Item Name="Target" Type="RT myRIO">
 		<Property Name="alias.name" Type="Str">Target</Property>
-		<Property Name="alias.value" Type="Str">roboRIO-2624-FRC.local</Property>
+		<Property Name="alias.value" Type="Str">roboRIO-624-FRC.local</Property>
 		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,ARM;DeviceCode,76F2;TARGET_TYPE,RT;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">76F2</Property>
 		<Property Name="crio.family" Type="Str">ARMLinux</Property>
@@ -573,7 +564,6 @@ AddOutputFilter chunkFilter
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
-				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
 				<Item Name="NT Event Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Event Type.ctl"/>
@@ -741,6 +731,7 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_CANTalonSRX_APIControlMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_APIControlMode.ctl"/>
 				<Item Name="WPI_CANTalonSRX_BrakeOverride.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_BrakeOverride.ctl"/>
 				<Item Name="WPI_CANTalonSRX_ConfigBrakeCoast.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_ConfigBrakeCoast.vi"/>
+				<Item Name="WPI_CANTalonSRX_ConfigEncoderCodesPerLine.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_ConfigEncoderCodesPerLine.vi"/>
 				<Item Name="WPI_CANTalonSRX_ConfigStatusFrameRate.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_ConfigStatusFrameRate.vi"/>
 				<Item Name="WPI_CANTalonSRX_ControlMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_ControlMode.ctl"/>
 				<Item Name="WPI_CANTalonSRX_DeduceControlIMsgId.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_DeduceControlIMsgId.vi"/>
@@ -1006,6 +997,8 @@ AddOutputFilter chunkFilter
 				<Item Name="Z900_navX_Flags_OpStatusTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_TypeDefs/Flags/Z900_navX_Flags_OpStatusTypeDef.ctl"/>
 				<Item Name="Z900_navX_Flags_SelfTestStatusTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_TypeDefs/Flags/Z900_navX_Flags_SelfTestStatusTypeDef.ctl"/>
 				<Item Name="Z900_navX_IntegrationControlRegisters.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_TypeDefs/Z900_navX_IntegrationControlRegisters.ctl"/>
+				<Item Name="Z900_navX_NotifyPacketTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_TypeDefs/Z900_navX_NotifyPacketTypeDef.ctl"/>
+				<Item Name="Z900_navX_ProtocolTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_TypeDefs/Z900_navX_ProtocolTypeDef.ctl"/>
 				<Item Name="Z900_navX_SERIAL_CapturePacket.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_Device/_Internal/SERIAL/Z900_navX_SERIAL_CapturePacket.vi"/>
 				<Item Name="Z900_navX_SERIAL_DecodePacket.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_Device/_Internal/SERIAL/Z900_navX_SERIAL_DecodePacket.vi"/>
 				<Item Name="Z900_navX_SERIAL_PacketChecksum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_Device/_Internal/SERIAL/Z900_navX_SERIAL_PacketChecksum.vi"/>
@@ -1027,8 +1020,6 @@ AddOutputFilter chunkFilter
 			<Item Name="libc.so.6" Type="Document" URL="libc.so.6">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="navX Library v2.lvlib" Type="Library" URL="../../../2016RobotCode/no/navX.Library.v2/navX Library v2/navX Library v2.lvlib"/>
-			<Item Name="NI WPI Serial USB.lvlib" Type="Library" URL="../../../2016RobotCode/no/navX.Library.v2/NI WPI/NI WPI Serial USB.lvlib"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1040,9 +1031,6 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="Power and Diagnostic Data.ctl" Type="VI" URL="../Common Code/Power and Diagnostic Data.ctl"/>
 			<Item Name="Shot Types.ctl" Type="VI" URL="../Common Code/Shot Types.ctl"/>
-			<Item Name="Z900_navX_ActionTypeDef.ctl" Type="VI" URL="../../../2016RobotCode/no/navX.Library.v2/navX Library v2/TypeDefs/Z900_navX_ActionTypeDef.ctl"/>
-			<Item Name="Z900_navX_NotifyPacketTypeDef.ctl" Type="VI" URL="../../../2016RobotCode/no/navX.Library.v2/navX Library v2/TypeDefs/Z900_navX_NotifyPacketTypeDef.ctl"/>
-			<Item Name="Z900_navX_ProtocolTypeDef.ctl" Type="VI" URL="../../../2016RobotCode/no/navX.Library.v2/navX Library v2/TypeDefs/Z900_navX_ProtocolTypeDef.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
