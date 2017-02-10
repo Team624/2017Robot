@@ -30,8 +30,9 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Vision Utilities.ctl" Type="VI" URL="../Common Code/Vision Utilities.ctl"/>
-		<Item Name="Climb Presets.ctl" Type="VI" URL="../Common Code/Climb Presets.ctl"/>
-		<Item Name="Vision Target Packet.ctl" Type="VI" URL="../Common Code/Vision Target Packet.ctl"/>
+		<Item Name="Robot Name.ctl" Type="VI" URL="../Common Code/Robot Name.ctl"/>
+		<Item Name="Shooter Settings.ctl" Type="VI" URL="../Common Code/Shooter Settings.ctl"/>
+		<Item Name="Intake Settings.ctl" Type="VI" URL="../Common Code/Intake Settings.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
@@ -231,7 +232,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
-			<Item Name="Robot Name.ctl" Type="VI" URL="../Common Code/Robot Name.ctl"/>
 			<Item Name="Dashboard Display Data.ctl" Type="VI" URL="../Common Code/Dashboard Display Data.ctl"/>
 			<Item Name="Dashboard Control Data.ctl" Type="VI" URL="../Common Code/Dashboard Control Data.ctl"/>
 			<Item Name="Drivetrain Status Cluster.ctl" Type="VI" URL="../Common Code/Drivetrain Status Cluster.ctl"/>
@@ -240,41 +240,35 @@
 			<Item Name="Climb Status Cluster.ctl" Type="VI" URL="../Common Code/Climb Status Cluster.ctl"/>
 			<Item Name="Shooter Status Cluster.ctl" Type="VI" URL="../Common Code/Shooter Status Cluster.ctl"/>
 			<Item Name="Intake Presets.ctl" Type="VI" URL="../Common Code/Intake Presets.ctl"/>
-			<Item Name="Intake Modes.ctl" Type="VI" URL="../Common Code/Intake Modes.ctl"/>
-			<Item Name="Intake Auto States.ctl" Type="VI" URL="../Common Code/Intake Auto States.ctl"/>
 			<Item Name="PID Gains.ctl" Type="VI" URL="../Common Code/PID Gains.ctl"/>
-			<Item Name="Shooter Modes.ctl" Type="VI" URL="../Common Code/Shooter Modes.ctl"/>
-			<Item Name="Shooter Commands.ctl" Type="VI" URL="../Common Code/Shooter Commands.ctl"/>
-			<Item Name="Shooter Presets.ctl" Type="VI" URL="../Common Code/Shooter Presets.ctl"/>
-			<Item Name="Vision Shot Presets.ctl" Type="VI" URL="../Common Code/Vision Shot Presets.ctl"/>
-			<Item Name="Shot Type.ctl" Type="VI" URL="../Common Code/Shot Type.ctl"/>
-			<Item Name="Manual Shooter Presets.ctl" Type="VI" URL="../Common Code/Manual Shooter Presets.ctl"/>
 			<Item Name="Drivetrain Encoder Settings.ctl" Type="VI" URL="../Common Code/Drivetrain Encoder Settings.ctl"/>
-			<Item Name="Drivetrain Encoder Values.ctl" Type="VI" URL="../Common Code/Drivetrain Encoder Values.ctl"/>
 			<Item Name="Encoder Values.ctl" Type="VI" URL="../Common Code/Encoder Values.ctl"/>
+			<Item Name="Drivetrain Encoder Values.ctl" Type="VI" URL="../Common Code/Drivetrain Encoder Values.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Dashboard" Type="EXE">
+			<Item Name="Teh Dashboard" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{B4276D4C-542E-449F-B52D-B5712254A5FE}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{4DAA066A-16EF-4C74-8840-6FED731FAC37}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{BE998F49-EC14-40E6-9404-8D996B4E5BE3}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{A341048E-99D0-4B34-9758-300645B0A868}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{92213D51-8B45-4A23-A6B3-B30D4DF892CD}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Dashboard</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Dashboard</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{0C769587-9C80-4725-99EC-EDBF2BF5230D}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Teh Dashboard</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Teh Dashboard</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{2085490C-9119-4396-847B-2C2925951E2E}</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{62073EB5-3385-4D65-9209-8CB659DA7001}</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Dashboard.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Dashboard/Dashboard.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Teh Dashboard/Dashboard.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Dashboard/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Teh Dashboard/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4E4D13AA-8A28-4A47-AA33-5CAD27508A5A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2C076300-6037-4B82-977E-39D1D272DC5D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Dashboard/Dashboard Main.vi</Property>
@@ -282,12 +276,11 @@
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">FRC Team 624</Property>
-				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Dashboard</Property>
-				<Property Name="TgtF_internalName" Type="Str">Dashboard</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Teh Dashboard</Property>
+				<Property Name="TgtF_internalName" Type="Str">Teh Dashboard</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 FRC Team 624</Property>
-				<Property Name="TgtF_productName" Type="Str">Dashboard</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{F309FFBD-B037-4579-BDA4-F4D7B7EB959C}</Property>
+				<Property Name="TgtF_productName" Type="Str">Teh Dashboard</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{0B3224DD-E90B-469B-87D0-92E28FE5EF88}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Dashboard.exe</Property>
 			</Item>
 		</Item>
@@ -390,6 +383,9 @@ AddOutputFilter chunkFilter
 		<Item Name="Framework" Type="Folder" URL="../Robot Code/Framework">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Hopper" Type="Folder" URL="../Robot Code/Hopper">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Intakes" Type="Folder" URL="../Robot Code/Intakes">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -418,9 +414,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Cached Name Lookup.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Cached Name Lookup.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
 				<Item Name="Compare Seq Numbers.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Compare Seq Numbers.vi"/>
-				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
 				<Item Name="Compute Delta.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Compute Delta.vi"/>
 				<Item Name="Connection Loop.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Connection Loop.vi"/>
 				<Item Name="Consume RPC Param Data.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Consume RPC Param Data.vi"/>
@@ -440,7 +434,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Field Data.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Field Data.ctl"/>
 				<Item Name="Field ID.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Field ID.ctl"/>
 				<Item Name="Field Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Field Type.ctl"/>
-				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
 				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
 				<Item Name="FPGA_AIAverageBits.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AI/FPGA_AIAverageBits.vi"/>
 				<Item Name="FPGA_AIChannel.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AI/FPGA_AIChannel.ctl"/>
@@ -624,7 +617,6 @@ AddOutputFilter chunkFilter
 				<Item Name="NT Write String.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Write String.vi"/>
 				<Item Name="NT Write Value.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Write Value.vi"/>
 				<Item Name="Obtain Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Obtain Semaphore Reference.vi"/>
-				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Parse NT Boolean Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Parse NT Boolean Array.vi"/>
 				<Item Name="Parse NT Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Parse NT Boolean.vi"/>
 				<Item Name="Parse NT Data.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Parse NT Data.vi"/>
@@ -639,12 +631,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Prepare Table Name.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Prepare Table Name.vi"/>
 				<Item Name="Process one Action.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Process one Action.vi"/>
 				<Item Name="Protocol Operations.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Protocol Operations.ctl"/>
-				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
-				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
-				<Item Name="Read Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (string).vi"/>
-				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
-				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
-				<Item Name="Read Lines From File (with error IO).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File (with error IO).vi"/>
 				<Item Name="Refnum Registry Operation.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/Refnum Registry Operation.ctl"/>
 				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
 				<Item Name="Remove Quotes2.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Remove Quotes2.vi"/>
@@ -773,7 +759,6 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_CANTalonSRX_Enable.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_Enable.vi"/>
 				<Item Name="WPI_CANTalonSRX_FeedbackSelect.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_FeedbackSelect.ctl"/>
 				<Item Name="WPI_CANTalonSRX_GetOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_GetOutput.vi"/>
-				<Item Name="WPI_CANTalonSRX_GetStatus.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_GetStatus.vi"/>
 				<Item Name="WPI_CANTalonSRX_Global.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_Global.vi"/>
 				<Item Name="WPI_CANTalonSRX_GlobalControl.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_GlobalControl.ctl"/>
 				<Item Name="WPI_CANTalonSRX_GlobalOps.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_GlobalOps.ctl"/>
@@ -1015,11 +1000,6 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_UtilitiesFRC FPGATime.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesFRC FPGATime.vi"/>
 				<Item Name="WPI_UtilitiesFRCAutomaticValuePublisher.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesFRCAutomaticValuePublisher.vi"/>
 				<Item Name="WPI_UtilitiesTimebaseConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesTimebaseConstants.vi"/>
-				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
-				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
-				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
-				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
-				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 				<Item Name="Z900_navX_ActionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_TypeDefs/Z900_navX_ActionTypeDef.ctl"/>
 				<Item Name="Z900_navX_DeviceRegisters.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_TypeDefs/Z900_navX_DeviceRegisters.ctl"/>
@@ -1064,7 +1044,6 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Power and Diagnostic Data.ctl" Type="VI" URL="../Common Code/Power and Diagnostic Data.ctl"/>
-			<Item Name="Shot Types.ctl" Type="VI" URL="../Common Code/Shot Types.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
