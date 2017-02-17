@@ -32,6 +32,7 @@
 		<Item Name="Vision Utilities.ctl" Type="VI" URL="../Common Code/Vision Utilities.ctl"/>
 		<Item Name="Climb Presets.ctl" Type="VI" URL="../Common Code/Climb Presets.ctl"/>
 		<Item Name="Vision Target Packet.ctl" Type="VI" URL="../Common Code/Vision Target Packet.ctl"/>
+		<Item Name="Goal Vision Packet.ctl" Type="VI" URL="../Common Code/Goal Vision Packet.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
@@ -248,7 +249,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Dashboard</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2085490C-9119-4396-847B-2C2925951E2E}</Property>
-				<Property Name="Bld_version.build" Type="Int">14</Property>
+				<Property Name="Bld_version.build" Type="Int">16</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Dashboard.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Dashboard/Dashboard.exe</Property>
@@ -257,7 +258,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Dashboard/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{FB10E550-A028-495B-9218-D0EE5AB8D498}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6EA7DFF7-C0E1-4906-9260-8583F8CED358}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Dashboard/Dashboard Main.vi</Property>
@@ -1104,10 +1105,12 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_compilerOptLevel" Type="Int">0</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/valer/Desktop/Robotics/2017Robot/Builds</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Builds</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
@@ -1117,7 +1120,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5B9B7826-16A9-49A0-B043-AABC03414D4B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FAEB475F-A181-497C-B679-0DD25128E892}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/Target/Robot Main.vi</Property>
