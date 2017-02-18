@@ -1,4 +1,5 @@
 ﻿ySpeed = .5
-xSpeed = 0
-zSpeed = 0
-wait maxtime = 750
+distanceTarget = 12
+ySpeed = 0
+xSpeed = .3
+translation
