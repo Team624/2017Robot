@@ -237,6 +237,7 @@
 			<Item Name="Change Detect.vi" Type="VI" URL="../Common Code/Utilities/Change Detect.vi"/>
 			<Item Name="Auton File Lists.ctl" Type="VI" URL="../Common Code/Auton File Lists.ctl"/>
 			<Item Name="Auton Command Cluster.ctl" Type="VI" URL="../Common Code/Auton Command Cluster.ctl"/>
+			<Item Name="Manual Shooter Presets.ctl" Type="VI" URL="../Common Code/Manual Shooter Presets.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Dashboard" Type="EXE">
