@@ -1,0 +1,3 @@
+﻿Hood = yes
+RPM = .717
+maxTime = 750
