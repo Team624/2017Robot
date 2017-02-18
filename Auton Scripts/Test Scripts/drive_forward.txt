@@ -1,0 +1,4 @@
+﻿ySpeed = .5
+xSpeed = 0
+zSpeed = 0
+wait maxtime = 750

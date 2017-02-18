@@ -1,0 +1,58 @@
+[
+	{
+		"name":"wait",
+		"id":0,
+		"desc":"wait for the amount of time i say so",
+		"subs": [
+				{"name":"maxTime", "id":0,"desc":"wait duration (ms). (0 = forever)"}
+		]
+	},
+	
+	{
+		"name":"auto_drive",
+		"id":1,
+		"desc":"drive for the dist i say so",
+		"subs": [
+				{"name":"maxTime", "id":0,"desc":"wait duration (ms). (0 = forever)"},
+				{"name":"distanceTarget", :id:1,"desc":"dist target."},
+				{"name":"headingTarget",:id:2,"desc":"the angle you want"},
+				{"name":"translationTarget",:id:3,"desc":"translationTarget"},
+				{"name":"ySpeed",id:4,"desc":"the speed you want to go at"},
+				{"name":"xSpeed",id:5,"desc":"the other speed you want to go at?"},
+				{"name":"zSpeed",id:6,"desc":"the other other speed you want to go at??"},
+				{"name":"async",id:7,"desc":"asynchronized? (no = 0; yes = 1)"},
+		]
+	},
+	
+	{
+		"name":"auto_shoot",
+		"id":2,
+		"desc":"shoot at the specified RPM also hood configuration",
+		"subs": [
+				{"name":"maxTime", "id":0,"desc":"wait duration (ms). (0 = forever)"},
+				{"name":"RPM", "id":1,"desc":"set the RPM of the shooter that you want"},
+				{"name":"Hood?", "id":2,"desc":"set hood configuration. (no = 0, yes = 1)"},
+				{"name":"Hopper?","id":3,"desc":"move the hopper intake? (no = 0,yes = 1)"},
+		]
+	},
+	
+	{
+		"name":"auto_intake",
+		"id":3,
+		"desc":"roll the intake",
+		"subs": [
+				{"name":"maxTime", "id":0,"desc":"wait duration (ms). (0 = forever)"},
+				{"name":"RollerPower","id":1,"desc":"set the power you want for the intake roller"},
+				{"name":"FillHopper","id":2,"desc":"do you want to fill the hopper? (no = 0,yes = 1"},
+		]
+	},
+	
+	
+	
+	{"alias":"no", "represents":0},
+	{"alias":"yes", "represents":1},
+	{"alias":"forever", "represents":0},
+	
+	
+]
+	
