@@ -2,4 +2,4 @@
 distanceTarget = 12
 ySpeed = 0
 xSpeed = .3
-translation
+translationHeading = 12

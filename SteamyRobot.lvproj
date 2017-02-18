@@ -224,7 +224,6 @@
 			<Item Name="Shooter Modes.ctl" Type="VI" URL="../Common Code/Shooter Modes.ctl"/>
 			<Item Name="Shooter Commands.ctl" Type="VI" URL="../Common Code/Shooter Commands.ctl"/>
 			<Item Name="Shooter Presets.ctl" Type="VI" URL="../Common Code/Shooter Presets.ctl"/>
-			<Item Name="Vision Shot Presets.ctl" Type="VI" URL="../Common Code/Vision Shot Presets.ctl"/>
 			<Item Name="Shot Type.ctl" Type="VI" URL="../Common Code/Shot Type.ctl"/>
 			<Item Name="Drivetrain Encoder Values.ctl" Type="VI" URL="../Common Code/Drivetrain Encoder Values.ctl"/>
 			<Item Name="Encoder Values.ctl" Type="VI" URL="../Common Code/Encoder Values.ctl"/>
@@ -237,7 +236,7 @@
 			<Item Name="Change Detect.vi" Type="VI" URL="../Common Code/Utilities/Change Detect.vi"/>
 			<Item Name="Auton File Lists.ctl" Type="VI" URL="../Common Code/Auton File Lists.ctl"/>
 			<Item Name="Auton Command Cluster.ctl" Type="VI" URL="../Common Code/Auton Command Cluster.ctl"/>
-			<Item Name="Manual Shooter Presets.ctl" Type="VI" URL="../Common Code/Manual Shooter Presets.ctl"/>
+			<Item Name="Shooter Motor Operational Status .ctl" Type="VI" URL="../Common Code/Shooter Motor Operational Status .ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Dashboard" Type="EXE">
@@ -792,7 +791,6 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_CANTalonSRX_Send.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_Send.vi"/>
 				<Item Name="WPI_CANTalonSRX_SetOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_SetOutput.vi"/>
 				<Item Name="WPI_CANTalonSRX_SetParameter.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_SetParameter.vi"/>
-				<Item Name="WPI_CANTalonSRX_SetPID.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_SetPID.vi"/>
 				<Item Name="WPI_CANTalonSRX_SetReference.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_SetReference.vi"/>
 				<Item Name="WPI_CANTalonSRX_SetSensorPosition.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_SetSensorPosition.vi"/>
 				<Item Name="WPI_CANTalonSRX_StatusFrame.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_StatusFrame.ctl"/>
