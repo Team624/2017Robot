@@ -1,5 +1,5 @@
-﻿ySpeed = .5
-distanceTarget = 12
-ySpeed = 0
-xSpeed = .3
-translationHeading = 12
+﻿auto_drive ySpeed = .5
+auto_drive distanceTarget = 12
+auto_drive ySpeed = 0
+auto_drive xSpeed = .3
+auto_drive translationTarget = 12
