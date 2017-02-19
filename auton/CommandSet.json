@@ -47,6 +47,15 @@
 		]
 	},
 	
+	{
+		"name":"reset_encoders",
+		"id":4,
+		"desc":"reset the divetrain encoders",
+		"subs": [
+		]
+	},
+	
+	
 	
 	
 	{"alias":"no", "represents":0},
