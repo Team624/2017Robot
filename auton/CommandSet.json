@@ -14,13 +14,13 @@
 		"desc":"drive for the dist i say so",
 		"subs": [
 				{"name":"maxTime", "id":0,"desc":"wait duration (ms). (0 = forever)"},
-				{"name":"distanceTarget", :id:1,"desc":"the distance you wanna drive straight"},
-				{"name":"headingTarget",:id:2,"desc":"how many inches u wanna drive at an angle"},
-				{"name":"translationTarget",:id:3,"desc":"distance you want to strafe for in inches"},
-				{"name":"ySpeed",id:4,"desc":"the speed you want to go at"},
-				{"name":"xSpeed",id:5,"desc":"the other speed you want to go at?"},
-				{"name":"zSpeed",id:6,"desc":"the other other speed you want to go at??"},
-				{"name":"async",id:7,"desc":"asynchronized? (no = 0; yes = 1)"},
+				{"name":"distanceTarget", "id":1,"desc":"the distanceaxw you wanna drive straight"},
+				{"name":"headingTarget","id":2,"desc":"how many inches u wanna drive at an angle"},
+				{"name":"translationTarget","id":3,"desc":"distance you want to strafe for in inches"},
+				{"name":"ySpeed","id":4,"desc":"the speed you want to go at"},
+				{"name":"xSpeed","id":5,"desc":"the other speed you want to go at?"},
+				{"name":"zSpeed","id":6,"desc":"the other other speed you want to go at??"},
+				{"name":"async","id":7,"desc":"asynchronized? (no = 0; yes = 1)"},
 		]
 	},
 	
