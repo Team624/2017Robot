@@ -250,7 +250,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Dashboard</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2085490C-9119-4396-847B-2C2925951E2E}</Property>
-				<Property Name="Bld_version.build" Type="Int">21</Property>
+				<Property Name="Bld_version.build" Type="Int">22</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Dashboard.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Dashboard/Dashboard.exe</Property>
@@ -723,6 +723,7 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_CameraManage Camera Settings.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraManage Camera Settings.vi"/>
 				<Item Name="WPI_CameraOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraOpen.vi"/>
 				<Item Name="WPI_CameraRead MJPGString.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraRead MJPGString.vi"/>
+				<Item Name="WPI_CameraRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraRefNum Registry Get.vi"/>
 				<Item Name="WPI_CameraRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraRefNum Registry Set.vi"/>
 				<Item Name="WPI_CameraRegistryActions.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraRegistryActions.ctl"/>
 				<Item Name="WPI_CameraSet Brightness.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraSet Brightness.vi"/>
@@ -762,7 +763,10 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_CANTalonSRX_APIControlMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_APIControlMode.ctl"/>
 				<Item Name="WPI_CANTalonSRX_APIFeedbackSelect.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_APIFeedbackSelect.ctl"/>
 				<Item Name="WPI_CANTalonSRX_BrakeOverride.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_BrakeOverride.ctl"/>
+				<Item Name="WPI_CANTalonSRX_ChangeMode.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_ChangeMode.vi"/>
 				<Item Name="WPI_CANTalonSRX_ConfigBrakeCoast.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_ConfigBrakeCoast.vi"/>
+				<Item Name="WPI_CANTalonSRX_ConfigEncoderCodesPerLine.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_ConfigEncoderCodesPerLine.vi"/>
+				<Item Name="WPI_CANTalonSRX_ConfigLimitSwitches.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_ConfigLimitSwitches.vi"/>
 				<Item Name="WPI_CANTalonSRX_ConfigStatusFrameRate.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_ConfigStatusFrameRate.vi"/>
 				<Item Name="WPI_CANTalonSRX_ControlMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_ControlMode.ctl"/>
 				<Item Name="WPI_CANTalonSRX_DeduceControlIMsgId.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_DeduceControlIMsgId.vi"/>
@@ -787,6 +791,7 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_CANTalonSRX_SetPID.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_SetPID.vi"/>
 				<Item Name="WPI_CANTalonSRX_SetReference.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_SetReference.vi"/>
 				<Item Name="WPI_CANTalonSRX_SetSensorPosition.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_SetSensorPosition.vi"/>
+				<Item Name="WPI_CANTalonSRX_SetVoltageRampRate.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_SetVoltageRampRate.vi"/>
 				<Item Name="WPI_CANTalonSRX_StatusFrame.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_StatusFrame.ctl"/>
 				<Item Name="WPI_CompressorDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorDevRef.ctl"/>
 				<Item Name="WPI_CompressorOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorOpen.vi"/>
@@ -1094,7 +1099,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
