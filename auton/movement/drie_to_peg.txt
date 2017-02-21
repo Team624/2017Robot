@@ -1,3 +1,0 @@
-﻿reset_encoders
-auto_drive ySpeed = .8 distanceTarget = 60
-gyro xSpeed = .8 headingTarget = 45 
