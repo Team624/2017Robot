@@ -35,14 +35,13 @@
 	},
 	
 	{
-		"name":"auto_intake",
+		"name":"gear_hopper",
 		"id":3,
 		"desc":"roll the intake",
 		"subs": [
 				{"name":"maxTime", "id":0,"desc":"wait duration (ms). (0 = forever)"},
-				{"name":"RollerPower","id":1,"desc":"set the power you want for the intake roller"},
-				{"name":"FillHopper","id":2,"desc":"do you want to fill the hopper? (no = 0,yes = 1"},
-				{"name":"openGear","id":3,"desc":"open the gear flaps (no = 0; yes = 1)"},
+				{"name":"FillHopper","id":1,"desc":"do you want to fill the hopper? (no = 0,yes = 1"},
+				{"name":"openGear","id":2,"desc":"open the gear flaps (no = 0; yes = 1)"},
 		]
 	},
 	
@@ -66,7 +65,15 @@
 		]
 	},
 	
-	
+	{
+		"name":"intake",
+		"id":6,
+		"desc":"run intake",
+		"subs":[
+					{"name":"maxTime", "id":0,"desc":"wait duration (ms). (0 = forever)"},
+					{"name":"RollerPower","id":1,"desc":"set the power you want for the intake roller"},
+		]
+	},
 	
 	
 	{"alias":"no", "represents":0},

@@ -1,10 +1,31 @@
 ﻿reset_encoders
 gyro zeroGyro= yes
-auto_drive ySpeed = 1 distanceTarget = 94 maxTime = 1500
-gyro xSpeed = .8 headingTarget = 47 maxTime = 1000
+auto_drive ySpeed = 1 distanceTarget = 94 maxTime = 1000
+gyro xSpeed = .78 headingTarget = 47 maxTime = 1000
 reset_encoders
-auto_intake openGear = yes maxTime = 1000 
-auto_drive ySpeed= .375 distanceTarget = 19 maxTime =1550
+gear_hopper openGear = yes maxTime = 1000 
+auto_drive ySpeed= 1 distanceTarget = 21 maxTime = 1000
+wait maxTime = 350
 reset_encoders
-auto_drive ySpeed = .475 distanceTarget = -30 maxTime = 1000
-auto_intake openGear = no maxTime = 1000
+auto_drive ySpeed = 1 distanceTarget = -30 maxTime = 1000
+gear_hopper openGear = no maxTime = 1000
+gyro = zeroGyro = yes
+gyro xSpeed =.8 headingTarget = 180 maxTime = 1000
+reset_encoders 
+auto_drive ySpeed = 1 distanceTarget = 12 maxTime = 1000
+reset_encoders 
+gear_hopper FillHopper = yes maxTime = 1000
+auto_drive zSpeed = 1.2 translationTarget = -110 maxTime = 1000
+wait maxTime = 1000
+reset_encoders 
+auto_drive ySpeed =.8 distanceTarget = 5 maxTime = 1000
+auto_drive zSpeed = 1 translationTarget = 10 maxTime = 1000
+reset_encoders
+gear_hopper FillHopper = no maxTime = 500
+auto_shoot RPM = 3600 Hopper? = yes hood = no maxTime = 1000
+gyro xSpeed = .8 headingTarget = -165 maxTime = 500
+intake RollerPower = -1 maxTime = 1000
+gear_hopper FillHopper  yes maxTime = 1000
+
+
+
