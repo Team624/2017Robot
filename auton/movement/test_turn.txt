@@ -1,0 +1,1 @@
+﻿gyro zeroGyro = yes xSpeed =.5 headingTarget = -45

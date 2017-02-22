@@ -1,5 +1,0 @@
-﻿ySpeed = .5
-distanceTarget = 12
-ySpeed = 0
-xSpeed = .3
-translationHeading = 12
