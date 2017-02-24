@@ -1,0 +1,3 @@
+﻿reset_encoders 
+gyro zeroGyro = yes 
+auto_drive ySpeed = 1 distanceTarget = 10

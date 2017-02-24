@@ -30,7 +30,7 @@
 				{"name":"maxTime", "id":0,"desc":"wait duration (ms). (0 = forever)"},
 				{"name":"RPM", "id":1,"desc":"set the RPM of the shooter that you want"},
 				{"name":"Hood", "id":2,"desc":"set hood configuration. (no = 0, yes = 1)"},
-				{"name":"Hopper?","id":3,"desc":"move the hopper intake? (no = 0,yes = 1)"},
+				{"name":"Hopper?","id":3,"desc":"move the hopper intake?"},
 		]
 	},
 	

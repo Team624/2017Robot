@@ -1,0 +1,2 @@
+﻿reset_encoders 
+auto_drive zSpeed = 1 translationTarget = -90 maxTime = 1000
