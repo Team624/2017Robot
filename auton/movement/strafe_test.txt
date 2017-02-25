@@ -1,2 +1,5 @@
-﻿reset_encoders 
+﻿//Start this auton the bumpers 2 1/2 inches from the edge of the diamond plate
+reset_encoders 
+auto_drive ySpeed = 1 distanceTarget = -90 maxTime = 1000
+reset_encoders
 auto_drive zSpeed = 1 translationTarget = -90 maxTime = 1000
