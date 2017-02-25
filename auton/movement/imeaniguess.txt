@@ -1,0 +1,2 @@
+﻿ySpeed = .5
+distanceTarget = 12
