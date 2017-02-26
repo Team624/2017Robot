@@ -19,7 +19,7 @@ auto_drive zSpeed = 1.2 translationTarget = 110 maxTime = 1000
 wait maxTime = 1000
 reset_encoders 
 auto_drive ySpeed =.8 distanceTarget = 20 maxTime = 1000
-auto_drive zSpeed= 1 distanceTarget = -6 maxTime = 1000
-intake maxTime = 1000
-auto_shoot maxTime = 1000
+auto_drive zSpeed= 1 distanceTarget = -10 maxTime = 1000
+intake rollerPower = -1  maxTime = 1000
+auto_shoot RPM = 3700 hood = yes hopper = -1 maxTime = 1000
 gyro xSpeed = .7 headingTarget = 168 maxTime = 1000

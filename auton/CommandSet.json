@@ -28,6 +28,9 @@
 		"desc":"shoot at the specified RPM also hood configuration",
 		"subs": [
 				{"name":"maxTime", "id":0,"desc":"wait duration (ms). (0 = forever)"},
+				{"name":"RPM","id":1,"desc":"set shooter RPM"},
+				{"name":"hood","id":2,"desc":"set shooter RPM"},
+				{"name":"hopper","id":3,"desc":"set shooter RPM"},
 		]
 	},
 	
@@ -68,6 +71,7 @@
 		"desc":"run intake",
 		"subs":[
 					{"name":"maxTime", "id":0,"desc":"wait duration (ms). (0 = forever)"},
+					{"name":"rollerPower","id":1,"desc":"the rollerpower you want "},
 		]
 	},
 	
