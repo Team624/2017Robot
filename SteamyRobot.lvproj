@@ -34,6 +34,7 @@
 		<Item Name="Vision Target Packet.ctl" Type="VI" URL="../Common Code/Vision Target Packet.ctl"/>
 		<Item Name="Goal Vision Packet.ctl" Type="VI" URL="../Common Code/Goal Vision Packet.ctl"/>
 		<Item Name="Auto Agitator Settings.ctl" Type="VI" URL="../Common Code/Auto Agitator Settings.ctl"/>
+		<Item Name="Climber Settings.ctl" Type="VI" URL="../Common Code/Climber Settings.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
@@ -252,7 +253,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Dashboard</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2085490C-9119-4396-847B-2C2925951E2E}</Property>
-				<Property Name="Bld_version.build" Type="Int">26</Property>
+				<Property Name="Bld_version.build" Type="Int">27</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Dashboard.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Dashboard/Dashboard.exe</Property>
