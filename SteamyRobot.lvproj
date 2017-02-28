@@ -381,7 +381,13 @@ AddOutputFilter chunkFilter
 		<Item Name="Intakes" Type="Folder" URL="../Robot Code/Intakes">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="LEDs" Type="Folder" URL="../Robot Code/LEDs">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="navX.Library.v2" Type="Folder" URL="../Robot Code/navX.Library.v2">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="Sensors" Type="Folder" URL="../Robot Code/Sensors">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Shooter" Type="Folder" URL="../Robot Code/Shooter">
@@ -1079,8 +1085,6 @@ AddOutputFilter chunkFilter
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Get Pressure.vi" Type="VI" URL="../Robot Code/Sensors/Get Pressure.vi"/>
-			<Item Name="LEDeezNuts Loop.vi" Type="VI" URL="../Robot Code/LEDs/LEDeezNuts Loop.vi"/>
 			<Item Name="libc.so.6" Type="Document" URL="libc.so.6">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
