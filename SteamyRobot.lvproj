@@ -35,6 +35,7 @@
 		<Item Name="Goal Vision Packet.ctl" Type="VI" URL="../Common Code/Goal Vision Packet.ctl"/>
 		<Item Name="Auto Agitator Settings.ctl" Type="VI" URL="../Common Code/Auto Agitator Settings.ctl"/>
 		<Item Name="Climber Settings.ctl" Type="VI" URL="../Common Code/Climber Settings.ctl"/>
+		<Item Name="LED Dashboard.ctl" Type="VI" URL="../Common Code/LED Dashboard.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
