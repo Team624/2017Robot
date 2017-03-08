@@ -1,2 +1,0 @@
-﻿FillHopper = yes
-maxTime = 750

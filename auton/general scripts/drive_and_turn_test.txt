@@ -1,0 +1,7 @@
+﻿reset_encoders
+auto_drive ySpeed = 0.89 distanceTarget = 82  async = no maxTime = 825
+reset_encoders
+auto_drive ySpeed = 1 distanceTarget = 25 xSpeed = 0.68 headingTarget = -58 async = no maxTime = 325
+reset_encoders
+gear_hopper openGear = yes
+auto_drive ySpeed = 0.75 distanceTarget = 48

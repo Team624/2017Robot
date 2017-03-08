@@ -1,3 +1,0 @@
-﻿auto_drive ySpeed = -.5
-auto_drive distanceTarget = 85
-auto_drive xSpeed = 

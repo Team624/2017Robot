@@ -1,0 +1,5 @@
+﻿reset_encoders
+auto_drive ySpeed = 1 distanceTarget = -100 async = no maxTime = 300
+auto_drive xSpeed = 1 headingTarget = 180 async = no maxTime = 500
+reset_encoders
+auto_drive ySpeed = 1 distanceTarget = 100 async = no maxTime = 300 xSpeed = 0.45 headingTarget = 180

@@ -1,2 +1,0 @@
-﻿RollerPower = 1
-maxTime = 750
