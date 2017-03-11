@@ -1,0 +1,10 @@
+﻿reset_encoders
+auto_drive ySpeed = 1 distanceTarget = -75 maxTime = 2000
+gear_hopper FillHopper = yes
+reset_encoders
+auto_drive zSpeed = 1 translationTarget = -45 xSpeed = 0.65 headingTarget = 180
+wait maxTime = 2000
+auto_shoot shotType = distance command = warmup
+gear_hopper FillHopper = no
+wait maxTime = 1000
+auto_shoot command = shoot
