@@ -240,6 +240,8 @@
 			<Item Name="Auton File Lists.ctl" Type="VI" URL="../Common Code/Auton File Lists.ctl"/>
 			<Item Name="Auton Command Cluster.ctl" Type="VI" URL="../Common Code/Auton Command Cluster.ctl"/>
 			<Item Name="Shooter Motor Operational Status .ctl" Type="VI" URL="../Common Code/Shooter Motor Operational Status .ctl"/>
+			<Item Name="LED Dashboard.ctl" Type="VI" URL="../Common Code/LED Dashboard.ctl"/>
+			<Item Name="LED Global Data.ctl" Type="VI" URL="../Common Code/LED Global Data.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Dashboard" Type="EXE">
@@ -253,7 +255,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Dashboard</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2085490C-9119-4396-847B-2C2925951E2E}</Property>
-				<Property Name="Bld_version.build" Type="Int">35</Property>
+				<Property Name="Bld_version.build" Type="Int">36</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Dashboard.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Dashboard/Dashboard.exe</Property>
@@ -1121,7 +1123,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">26</Property>
+				<Property Name="Bld_version.build" Type="Int">27</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
