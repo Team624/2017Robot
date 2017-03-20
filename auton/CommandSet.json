@@ -21,6 +21,7 @@
 				{"name":"xSpeed","id":5,"desc":"the speed you wantto turn at"},
 				{"name":"zSpeed","id":6,"desc":"the other other speed you want to go at??"},
 				{"name":"async","id":7,"desc":"asynchronized? (no = 0; yes = 1)"},
+				{"name":"traction","id":8,"desc":"put down traction weels? (no = 0; yes = 1)"},
 		]
 	},
 	

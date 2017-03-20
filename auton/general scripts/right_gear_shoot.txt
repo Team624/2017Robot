@@ -1,0 +1,18 @@
+﻿reset_encoders
+auto_shoot shotType = key
+auto_drive ySpeed = 1 distanceTarget = 95 xSpeed = 0.3 headingTarget = 0.01 maxTime = 6000 async = no
+gear_hopper openGear = yes maxTime = 1000
+auto_drive xSpeed = 0.3 headingTarget = 57.3 maxTime = 1500
+reset_encoders
+auto_drive ySpeed = .45 distanceTarget = 38 xSpeed = 0.75 headingTarget = 57 maxTime = 2000 async = no
+wait maxTime = 1500
+reset_encoders
+auto_shoot command = warmup
+auto_drive ySpeed = 1 distanceTarget = -30 async = no maxTime = 300
+auto_drive xSpeed = .78 headingTarget = -137 async = no maxTime = 1500
+reset_encoders
+auto_drive xSpeed = .25 headingTarget = -137 ySpeed= 1 distanceTarget = 121 zSpeed = 1 translationTarget = 15 async = no maxTime = 1250
+wait maxTime = 250
+reset_encoders
+auto_drive traction = yes ySpeed = 0.25 distanceTarget = -3 async = no maxTime = 1000
+auto_shoot command = shoot
