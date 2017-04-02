@@ -1,3 +1,0 @@
-﻿auto_drive traction = yes
-wait maxTime = 1000
-auto_drive traction = no

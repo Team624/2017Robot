@@ -1,4 +1,4 @@
 ﻿reset_encoders 
-auto_drive ySpeed = 1 distanceTarget = 85 xSpeed = 0.3 headingTarget = 0.01 maxTime = 2000 async=no
+auto_drive ySpeed = 1 distanceTarget = 89 xSpeed = 0.3 headingTarget = 0.01 maxTime = 2000 async=no
 gear_hopper openGear = yes maxTime = 1000
 wait maxTime = forever
