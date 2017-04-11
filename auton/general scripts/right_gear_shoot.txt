@@ -1,6 +1,6 @@
 ﻿reset_encoders
 auto_shoot shotType = key
-auto_drive ySpeed = 1 distanceTarget = 95 xSpeed = 0.3 headingTarget = 0.01 maxTime = 6000 async = no
+auto_drive ySpeed = 1 distanceTarget = 97 xSpeed = 0.3 headingTarget = 0.01 maxTime = 6000 async = no
 gear_hopper openGear = yes maxTime = 1000
 auto_drive xSpeed = 0.3 headingTarget = 57.3 maxTime = 1500
 reset_encoders
