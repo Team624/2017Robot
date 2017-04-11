@@ -403,6 +403,9 @@ AddOutputFilter chunkFilter
 		<Item Name="navX.Library.v2" Type="Folder" URL="../Robot Code/navX.Library.v2">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="On Board Vision" Type="Folder" URL="../Robot Code/On Board Vision">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Sensors" Type="Folder" URL="../Robot Code/Sensors">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
