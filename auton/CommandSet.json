@@ -73,6 +73,13 @@
 					{"name":"maxTime", "id":0,"desc":"wait duration (ms). (0 = forever)"},
 		]
 	},
+	{
+		"name":"active_outtake",
+		"id":7,
+		"desc":"pushes gear out of the robot",
+		"subs": [
+		]
+	},
 	
 	
 	{"alias":"no", "represents":0},
