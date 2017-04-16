@@ -258,6 +258,7 @@
 			<Item Name="Robot Status Cluster.ctl" Type="VI" URL="../Common Code/Robot Status Cluster.ctl"/>
 			<Item Name="Unload Mode.ctl" Type="VI" URL="../Common Code/Unload Mode.ctl"/>
 			<Item Name="Load State.ctl" Type="VI" URL="../Common Code/Load State.ctl"/>
+			<Item Name="LED Status Cluster.ctl" Type="VI" URL="../Common Code/LED Status Cluster.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Dashboard" Type="EXE">
