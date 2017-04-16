@@ -1,0 +1,17 @@
+﻿reset_encoders
+auto_shoot shotType = key //set shooter mode to key shot
+auto_drive ySpeed = 1 distanceTarget = 97 xSpeed = 0.3 headingTarget = 0.01 maxTime = 6000 async = no //drive forward
+auto_drive xSpeed = 0.3 headingTarget = 57.3 maxTime = 1500 //turn to peg
+reset_encoders
+auto_drive ySpeed = .45 distanceTarget = 38 xSpeed = 0.75 headingTarget = 57 maxTime = 2000 async = no //drive to peg
+active_outtake //place gear
+reset_encoders
+auto_shoot command = warmup
+auto_drive ySpeed = 1 distanceTarget = -30 async = no maxTime = 300 //back away from peg
+auto_drive xSpeed = .78 headingTarget = -137 async = no maxTime = 1500 //turn around to boiler
+reset_encoders
+auto_drive xSpeed = .25 headingTarget = -137 ySpeed= 1 distanceTarget = 121 zSpeed = 1 translationTarget = 15 async = no maxTime = 1250 //drive to boiler while strafing and keeping heading
+wait maxTime = 250
+reset_encoders
+auto_shoot command = shoot //shoot
+auto_drive traction = yes ySpeed = 0.25 distanceTarget = -3 async = no maxTime = 1000 //back away and raise traction for shooting

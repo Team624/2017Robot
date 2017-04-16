@@ -1,0 +1,11 @@
+﻿reset_encoders
+auto_drive ySpeed = 1 distanceTarget = 95 xSpeed = .3 headingTarget = 0.01 maxTime = 6000 async = no //drive forward
+auto_drive xSpeed = 0.5 headingTarget = -57.3 maxTime = 5000 //turn to peg
+reset_encoders
+auto_drive ySpeed = .45 distanceTarget = 38 xSpeed = 0.75 headingTarget = -57 maxTime = 2000 async = no //drive to peg
+active_outtake //place gear
+reset_encoders
+auto_drive ySpeed = 1 distanceTarget = -38 xSpeed = 0.75 headingTarget = -57 maxTime = 2000 async = no //back away from peg
+auto_drive xSpeed = 0.75 headingTarget = 0.01 maxTime = 2000 async = no //turn back to face forward
+reset_encoders 
+auto_drive ySpeed = 1 distanceTarget = 200 xSpeed = 0.4 headingTarget = 0.01 maxTime = forever async = no //drive to opponent's whiteline
