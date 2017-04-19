@@ -1,5 +1,5 @@
 ﻿reset_encoders 
-auto_drive ySpeed = 1 distanceTarget = 89 xSpeed = 0.3 headingTarget = 0.01 maxTime = 2000 async = no //drive to peg
+auto_drive ySpeed = 1 distanceTarget = 92 xSpeed = 0.3 headingTarget = 0.01 maxTime = 2000 async = no //drive to peg
 active_outtake //place gear
 reset_encoders
 auto_drive ySpeed = 1 distanceTarget = -50 xSpeed = 0.3 headingTarget = 0.01 maxTime = forever async = no //back away from peg
