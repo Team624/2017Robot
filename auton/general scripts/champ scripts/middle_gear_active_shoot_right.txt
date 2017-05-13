@@ -1,6 +1,7 @@
 ﻿reset_encoders 
 auto_shoot shotType = key command = idle //set shooter mode to key shot
 auto_drive ySpeed = 1 distanceTarget = 90 xSpeed = 0.3 headingTarget = 0.01 maxTime = 2000 async=no //drive to peg
+wait maxTime = 250
 active_outtake //place gear
 reset_encoders
 auto_drive ySpeed = 1 distanceTarget = -83 maxTime = 2000 async = no //back away from peg to back wall
@@ -12,4 +13,4 @@ reset_encoders
 auto_drive ySpeed = 1 distanceTarget = 30 async = no maxTime = 750 //drive into boiler to align bot
 reset_encoders
 auto_shoot command = shoot
-auto_drive traction = yes ySpeed = 0.5 distanceTarget = -8 maxTime = 750 async = no //back away from boiler and raise traction for shooting
+auto_drive traction = yes async = no //put down ttractiokn when ready to soot

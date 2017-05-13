@@ -1,5 +1,5 @@
 ﻿reset_encoders
-auto_drive ySpeed = 1 distanceTarget = 105 xSpeed = .3 headingTarget = 0.01 maxTime = 6000 async = no //drive forward
+auto_drive ySpeed = 1 distanceTarget = 101 xSpeed = .3 headingTarget = 0.01 maxTime = 6000 async = no //drive forward
 auto_drive xSpeed = 0.5 headingTarget = -57.3 maxTime = 1750 //turn to peg
 reset_encoders
 auto_drive ySpeed = .45 distanceTarget = 38 xSpeed = 0.75 headingTarget = -57 maxTime = 1500 async = no //drive to peg
