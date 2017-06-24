@@ -40,6 +40,7 @@
 		<Item Name="Climber Settings.ctl" Type="VI" URL="../Common Code/Climber Settings.ctl"/>
 		<Item Name="Input Modifier.ctl" Type="VI" URL="../Common Code/Input Modifier.ctl"/>
 		<Item Name="PDP Device Currents.ctl" Type="VI" URL="../Common Code/PDP Device Currents.ctl"/>
+		<Item Name="Control 2.ctl" Type="VI" URL="../Common Code/Control 2.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
@@ -222,6 +223,7 @@
 				<Item Name="LVCursorListTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVCursorListTypeDef.ctl"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="NI_3D Picture Control.lvlib" Type="Library" URL="/&lt;vilib&gt;/picture/3D Picture Control/NI_3D Picture Control.lvlib"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -267,6 +269,8 @@
 			<Item Name="LED Status Cluster.ctl" Type="VI" URL="../Common Code/LED Status Cluster.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="PIXY Vision Packet.ctl" Type="VI" URL="../Common Code/PIXY Vision Packet.ctl"/>
+			<Item Name="Gear Vision Packet.ctl" Type="VI" URL="../Common Code/Gear Vision Packet.ctl"/>
+			<Item Name="Drivetrain Mode.ctl" Type="VI" URL="../Common Code/Drivetrain Mode.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Dashboard" Type="EXE">
