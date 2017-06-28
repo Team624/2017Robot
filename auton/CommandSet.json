@@ -80,6 +80,14 @@
 		"subs": [
 		]
 	},
+	{
+		"name":"gear_vision_align",
+		"id":8,
+		"desc":"align toward peg with vision",
+		"subs":	[
+					{"name":"maxTime", "id":0,"desc":"wait duration (ms). (0 = forever)"},
+		]
+	},
 	
 	
 	{"alias":"no", "represents":0},
