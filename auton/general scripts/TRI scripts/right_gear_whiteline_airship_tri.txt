@@ -1,0 +1,19 @@
+﻿reset_encoders
+auto_drive ySpeed = 0.85 distanceTarget = 99 xSpeed = .3 headingTarget = 0.01 maxTime = 3000 async = no //drive forward
+auto_drive xSpeed = 0.5 headingTarget = 57.3 maxTime = 1500 //turn to peg
+reset_encoders
+auto_drive ySpeed = .3 distanceTarget = 16 xSpeed = 0.75 headingTarget = 56 maxTime = 1000 async = no //drive to do gear vision
+gear_vision_align maxTime = 118624144411
+reset_encoders
+auto_drive ySpeed = .45 distanceTarget = 22 xSpeed = 0.75 headingTarget = 56 maxTime = 1000 async = no //drive to peg
+//WITHOUT VISION:
+//auto_drive ySpeed = .45 distanceTarget = 38 xSpeed = 0.75 headingTarget = 56 maxTime = 1000 async = no //drive to peg
+active_outtake //place gear
+reset_encoders
+auto_drive ySpeed = 1 distanceTarget = -38 xSpeed = 0.75 headingTarget = 56 maxTime = 2000 async = no //back away from peg
+auto_drive xSpeed = 0.75 headingTarget = 0.01 maxTime = 2000 async = no //turn back to face forward
+reset_encoders 
+auto_drive ySpeed = 1 distanceTarget = 80 xSpeed = 0.4 headingTarget = 0.01 maxTime = 2000 async = no //past airship
+auto_drive xSpeed = 0.75 headingTarget = 35 maxTime = 2000 async = no //turn to get ready to cut across field
+reset_encoders
+auto_drive ySpeed = 1 distanceTarget = 325 xSpeed = 0.4 headingTarget = 35 maxTime = forever async = no //drive to opponents airship

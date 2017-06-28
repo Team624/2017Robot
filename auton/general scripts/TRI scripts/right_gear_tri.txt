@@ -1,0 +1,13 @@
+﻿reset_encoders
+auto_drive ySpeed = 0.85 distanceTarget = 99 xSpeed = .3 headingTarget = 0.01 maxTime = 6000 async = no //drive forward
+auto_drive xSpeed = 0.5 headingTarget = 57.3 maxTime = 1500 //turn to peg
+reset_encoders
+auto_drive ySpeed = .3 distanceTarget = 16 xSpeed = 0.75 headingTarget = 56 maxTime = 1000 async = no //drive to do gear vision
+gear_vision_align maxTime = 624118
+reset_encoders
+auto_drive ySpeed = .45 distanceTarget = 22 xSpeed = 0.75 headingTarget = 56 maxTime = 1000 async = no //drive to peg
+//WITHOUT VISION:
+//auto_drive ySpeed = .45 distanceTarget = 38 xSpeed = 0.75 headingTarget = 56 maxTime = 1000 async = no //drive to peg
+active_outtake //place gear
+reset_encoders
+auto_drive ySpeed = 1 distanceTarget = -38 xSpeed = 0.75 headingTarget = 56 maxTime = 2000 async = no //back away from peg
