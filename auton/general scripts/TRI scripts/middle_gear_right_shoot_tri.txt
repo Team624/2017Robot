@@ -1,8 +1,9 @@
 ﻿reset_encoders 
 auto_shoot shotType = key command = idle //set shooter mode to key shot
-auto_drive ySpeed = 1 distanceTarget = 90 xSpeed = 0.3 headingTarget = 0.01 maxTime = 2000 async=no //drive to peg
+auto_drive ySpeed = 1 distanceTarget = 103 xSpeed = 0.3 headingTarget = 0.01 maxTime = 2000 async=no //drive to pegwait maxTime  
 wait maxTime = 250
 active_outtake //place gear
+wait maxTime = 1000
 reset_encoders
 auto_drive ySpeed = 1 distanceTarget = -83 maxTime = 2000 async = no //back away from peg to back wall
 auto_drive xSpeed = 0.74 headingTarget = -90 maxTime = 3000 async = no //turn right to the boiler
