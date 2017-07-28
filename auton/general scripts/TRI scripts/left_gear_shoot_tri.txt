@@ -13,11 +13,11 @@ active_outtake //place gear
 wait maxTime = 1000
 reset_encoders
 auto_shoot command = warmup
-auto_drive ySpeed = 1 distanceTarget = -38 async = no maxTime = 300 //back away from peg
-auto_drive xSpeed = .78 headingTarget = 133 async = no maxTime = 1500 //turn around to boiler
+auto_drive ySpeed = 1 distanceTarget = -30 async = no maxTime = 300 //back away from peg
+auto_drive xSpeed = .78 headingTarget = 141 async = no maxTime = 1500 //turn around to boiler
 reset_encoders
-auto_drive xSpeed = .25 headingTarget = 133 ySpeed= 1 distanceTarget = 121 zSpeed = 1 translationTarget = -15 async = no maxTime = 1250 //drive to boiler while strafing and keeping heading
+auto_drive xSpeed = .25 headingTarget = 141 ySpeed= 1 distanceTarget = 110 zSpeed = 1 translationTarget = -15 async = no maxTime = 1250 //drive to boiler while strafing and keeping heading
 wait maxTime = 250
 reset_encoders
 auto_shoot command = shoot //shoot
-auto_drive traction = yes ySpeed = 0.25 distanceTarget = -3 async = no maxTime = 1000 //drive back and activate traction to ready for shooting
+auto_drive traction = yes ySpeed = 0.25 distanceTarget = 0 async = no maxTime = 1000 //drive back and activate traction to ready for shooting
