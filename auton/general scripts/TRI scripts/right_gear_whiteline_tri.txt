@@ -1,5 +1,5 @@
 ﻿reset_encoders
-auto_drive ySpeed = 0.85 distanceTarget = 103 xSpeed = .3 headingTarget = 0.01 maxTime = 4500 async = no //drive forward
+auto_drive ySpeed = 0.85 distanceTarget = 100 xSpeed = .3 headingTarget = 0.01 maxTime = 4500 async = no //drive forward
 auto_drive xSpeed = 0.5 headingTarget = 54.8 maxTime = 1500 //turn to peg
 reset_encoders
 //auto_drive ySpeed = .3 distanceTarget = 16 xSpeed = 0.75 headingTarget = 56 maxTime = 1000 async = no //drive to do gear vision
